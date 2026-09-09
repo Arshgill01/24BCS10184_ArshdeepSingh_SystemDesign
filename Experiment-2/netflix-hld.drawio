@@ -1,0 +1,326 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device" pages="4">
+  <diagram id="page1" name="01 — Requirements">
+    <mxGraphModel dx="1200" dy="850" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="850" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kicker" value="SYSTEM DESIGN  /  EXPERIMENT 02" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=12;fontColor=#A84141;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="30" width="1000" height="20" />
+        </mxCell>
+        <mxCell id="title" value="Requirements" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=32;fontColor=#252525;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="66" width="1100" height="46" />
+        </mxCell>
+        <mxCell id="subtitle" value="On-demand video streaming across web, mobile, and smart TVs." style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=16;fontColor=#737373;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="122" width="1100" height="40" />
+        </mxCell>
+        <mxCell id="top-rule" value="" style="shape=line;strokeColor=#DCDCDC;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="175" width="1100" height="1" />
+        </mxCell>
+        <mxCell id="bottom-rule" value="" style="shape=line;strokeColor=#DCDCDC;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="797" width="1100" height="1" />
+        </mxCell>
+        <mxCell id="foot" value="NETFLIX · PROPOSED HLD · EDUCATIONAL DESIGN" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=11;fontColor=#737373;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="813" width="900" height="20" />
+        </mxCell>
+        <mxCell id="number" value="01 / 04" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=11;fontColor=#737373;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1090" y="813" width="70" height="20" />
+        </mxCell>
+        <mxCell id="functionalh" value="FUNCTIONAL REQUIREMENTS" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=14;fontColor=#A84141;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="211" width="520" height="27" />
+        </mxCell>
+        <mxCell id="functionalb" value="1. Sign in and manage viewing profiles.&lt;br&gt;&lt;br&gt;2. Browse titles, search, and see recommendations.&lt;br&gt;&lt;br&gt;3. Play, pause, seek, and change video quality.&lt;br&gt;&lt;br&gt;4. Save a watchlist and resume across devices.&lt;br&gt;&lt;br&gt;5. Check subscription and regional viewing rights.&lt;br&gt;&lt;br&gt;6. Ingest, encode, and publish licensed content." style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=18;fontColor=#252525;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="251" width="520" height="365" />
+        </mxCell>
+        <mxCell id="nonfunctionalh" value="NON-FUNCTIONAL REQUIREMENTS" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=14;fontColor=#A84141;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="650" y="211" width="500" height="27" />
+        </mxCell>
+        <mxCell id="nonfunctionalb" value="• Availability: target 99.99% for playback APIs.&lt;br&gt;&lt;br&gt;• Speed: API p95 &amp;lt; 300 ms; startup p95 &amp;lt; 2 s&lt;br&gt;  on a healthy broadband connection.&lt;br&gt;&lt;br&gt;• Scale: millions of simultaneous streams.&lt;br&gt;&lt;br&gt;• Reliability: replicated data and regional failover.&lt;br&gt;&lt;br&gt;• Security: TLS, encrypted storage, DRM,&lt;br&gt;  and short-lived playback authorization." style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=18;fontColor=#252525;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="650" y="251" width="500" height="365" />
+        </mxCell>
+        <mxCell id="scope-rule" value="" style="shape=line;strokeColor=#DCDCDC;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="638" width="1100" height="1" />
+        </mxCell>
+        <mxCell id="scopeh" value="SCOPE &amp; CONSISTENCY" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=14;fontColor=#A84141;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="665" width="1100" height="27" />
+        </mxCell>
+        <mxCell id="scopeb" value="Video on demand only. Live streaming, ads, downloads, and payment processing are outside this design.&lt;br&gt;&lt;br&gt;Entitlement checks use authoritative account data. Watch history, search indexes, and recommendations&lt;br&gt;may update asynchronously. All scale figures and performance goals are design assumptions." style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=18;fontColor=#252525;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="705" width="1100" height="100" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="page2" name="02 — Capacity estimates">
+    <mxGraphModel dx="1200" dy="850" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="850" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kicker" value="SYSTEM DESIGN  /  EXPERIMENT 02" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=12;fontColor=#A84141;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="30" width="1000" height="20" />
+        </mxCell>
+        <mxCell id="title" value="Capacity estimates" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=32;fontColor=#252525;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="66" width="1100" height="46" />
+        </mxCell>
+        <mxCell id="subtitle" value="Back-of-the-envelope sizing · decimal units · assumed workload, not reported Netflix figures." style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=16;fontColor=#737373;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="122" width="1100" height="40" />
+        </mxCell>
+        <mxCell id="top-rule" value="" style="shape=line;strokeColor=#DCDCDC;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="175" width="1100" height="1" />
+        </mxCell>
+        <mxCell id="bottom-rule" value="" style="shape=line;strokeColor=#DCDCDC;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="797" width="1100" height="1" />
+        </mxCell>
+        <mxCell id="foot" value="NETFLIX · PROPOSED HLD · EDUCATIONAL DESIGN" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=11;fontColor=#737373;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="813" width="900" height="20" />
+        </mxCell>
+        <mxCell id="number" value="02 / 04" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=11;fontColor=#737373;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1090" y="813" width="70" height="20" />
+        </mxCell>
+        <mxCell id="inputs-h" value="WORKLOAD ASSUMPTIONS" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=14;fontColor=#A84141;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="206" width="1100" height="25" />
+        </mxCell>
+        <mxCell id="inputs" value="100M daily active viewers  ·  2 hours watched / viewer / day  ·  5 Mb/s average stream bitrate&lt;br&gt;20 API calls / viewer / day  ·  3× average-to-peak factor  ·  50,000 titles at 2 hours each" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=18;fontColor=#252525;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="245" width="1100" height="65" />
+        </mxCell>
+        <mxCell id="col1" value="QUANTITY" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=12;fontColor=#737373;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="338" width="275" height="20" />
+        </mxCell>
+        <mxCell id="col2" value="CALCULATION" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=12;fontColor=#737373;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="345" y="338" width="415" height="20" />
+        </mxCell>
+        <mxCell id="col3" value="ESTIMATE" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=12;fontColor=#737373;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="800" y="338" width="350" height="20" />
+        </mxCell>
+        <mxCell id="r0a" value="Concurrent streams" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=16;fontColor=#252525;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="375" width="280" height="40" />
+        </mxCell>
+        <mxCell id="r0b" value="100M × 2 ÷ 24" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=16;fontColor=#252525;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="345" y="375" width="430" height="40" />
+        </mxCell>
+        <mxCell id="r0c" value="8.3M average / 25M peak" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=16;fontColor=#252525;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="800" y="375" width="350" height="40" />
+        </mxCell>
+        <mxCell id="r1a" value="Video delivery bandwidth" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=16;fontColor=#252525;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="428" width="280" height="40" />
+        </mxCell>
+        <mxCell id="r1b" value="8.3M × 5 Mb/s; peak × 3" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=16;fontColor=#252525;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="345" y="428" width="430" height="40" />
+        </mxCell>
+        <mxCell id="r1c" value="41.7 Tb/s average / 125 Tb/s peak" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=16;fontColor=#252525;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="800" y="428" width="350" height="40" />
+        </mxCell>
+        <mxCell id="r2a" value="Video delivered per day" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=16;fontColor=#252525;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="481" width="280" height="40" />
+        </mxCell>
+        <mxCell id="r2b" value="100M × 2 × 3,600 × 5 ÷ 8 MB" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=16;fontColor=#252525;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="345" y="481" width="430" height="40" />
+        </mxCell>
+        <mxCell id="r2c" value="450 PB / day" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=16;fontColor=#252525;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="800" y="481" width="350" height="40" />
+        </mxCell>
+        <mxCell id="r3a" value="Application API traffic" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=16;fontColor=#252525;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="534" width="280" height="40" />
+        </mxCell>
+        <mxCell id="r3b" value="100M × 20 ÷ 86,400; peak × 3" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=16;fontColor=#252525;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="345" y="534" width="430" height="40" />
+        </mxCell>
+        <mxCell id="r3c" value="≈23K requests/s average / 69K peak" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=16;fontColor=#252525;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="800" y="534" width="350" height="40" />
+        </mxCell>
+        <mxCell id="r4a" value="Encoded video library" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=16;fontColor=#252525;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="587" width="280" height="40" />
+        </mxCell>
+        <mxCell id="r4b" value="50K × 7,200 s × 20 Mb/s ÷ 8" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=16;fontColor=#252525;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="345" y="587" width="430" height="40" />
+        </mxCell>
+        <mxCell id="r4c" value="900 TB; 2.7 PB with 3 copies" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=16;fontColor=#252525;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="800" y="587" width="350" height="40" />
+        </mxCell>
+        <mxCell id="r5a" value="Playback progress events" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=16;fontColor=#252525;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="640" width="280" height="40" />
+        </mxCell>
+        <mxCell id="r5b" value="8.3M streams ÷ 30 s; peak × 3" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=16;fontColor=#252525;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="345" y="640" width="430" height="40" />
+        </mxCell>
+        <mxCell id="r5c" value="≈278K events/s average / 833K peak" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=16;fontColor=#252525;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="800" y="640" width="350" height="40" />
+        </mxCell>
+        <mxCell id="notes" value="Storage assumes 20 Mb/s summed across all encoded renditions; excludes source masters and CDN copies.&lt;br&gt;Progress events are separate from API traffic. Figures exclude protocol overhead and capacity headroom." style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=14;fontColor=#737373;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="715" width="1100" height="50" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="page3" name="03 — High-level architecture">
+    <mxGraphModel dx="1200" dy="850" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="850" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kicker" value="SYSTEM DESIGN  /  EXPERIMENT 02" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=12;fontColor=#A84141;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="30" width="1000" height="20" />
+        </mxCell>
+        <mxCell id="title" value="High-level architecture" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=32;fontColor=#252525;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="66" width="1100" height="46" />
+        </mxCell>
+        <mxCell id="subtitle" value="Application requests and video delivery follow separate paths. Each service represents a scalable cluster." style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=16;fontColor=#737373;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="122" width="1100" height="40" />
+        </mxCell>
+        <mxCell id="top-rule" value="" style="shape=line;strokeColor=#DCDCDC;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="175" width="1100" height="1" />
+        </mxCell>
+        <mxCell id="bottom-rule" value="" style="shape=line;strokeColor=#DCDCDC;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="797" width="1100" height="1" />
+        </mxCell>
+        <mxCell id="foot" value="NETFLIX · PROPOSED HLD · EDUCATIONAL DESIGN" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=11;fontColor=#737373;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="813" width="900" height="20" />
+        </mxCell>
+        <mxCell id="number" value="03 / 04" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=11;fontColor=#737373;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1090" y="813" width="70" height="20" />
+        </mxCell>
+        <mxCell id="client" value="&lt;b&gt;Viewer app&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#737373&quot; style=&quot;font-size:13px&quot;&gt;Web · mobile · TV&lt;/font&gt;" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=16;fontColor=#252525;fillColor=#FAFAFA;strokeColor=#DCDCDC;strokeWidth=1;spacing=10;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="220" width="200" height="75" />
+        </mxCell>
+        <mxCell id="gateway" value="&lt;b&gt;API gateway + LB&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#737373&quot; style=&quot;font-size:13px&quot;&gt;TLS · routing · rate limits&lt;/font&gt;" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=16;fontColor=#252525;fillColor=#FAFAFA;strokeColor=#DCDCDC;strokeWidth=1;spacing=10;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="345" y="220" width="230" height="75" />
+        </mxCell>
+        <mxCell id="cdn" value="&lt;b&gt;CDN edge&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#737373&quot; style=&quot;font-size:13px&quot;&gt;Caches video near viewers&lt;/font&gt;" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=16;fontColor=#252525;fillColor=#FBF2F2;strokeColor=#C78989;strokeWidth=1;spacing=10;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="860" y="220" width="250" height="75" />
+        </mxCell>
+        <mxCell id="request" value="HTTPS" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=1.4;strokeColor=#737373;fontColor=#737373;fontFamily=Helvetica;fontSize=12;labelBackgroundColor=#FFFFFF;dashed=0;" edge="1" parent="1" source="client" target="gateway">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="segments" value="Video segments" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=1.4;strokeColor=#A84141;fontColor=#A84141;fontFamily=Helvetica;fontSize=12;labelBackgroundColor=#FFFFFF;dashed=0;exitX=0.5;exitY=0;entryX=0.5;entryY=0;" edge="1" parent="1" source="cdn" target="client">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="account" value="&lt;b&gt;Account &amp; profiles&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#737373&quot; style=&quot;font-size:13px&quot;&gt;Identity · entitlement&lt;/font&gt;" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=16;fontColor=#252525;fillColor=#FAFAFA;strokeColor=#DCDCDC;strokeWidth=1;spacing=10;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="405" width="230" height="78" />
+        </mxCell>
+        <mxCell id="catalog" value="&lt;b&gt;Catalog &amp; discovery&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#737373&quot; style=&quot;font-size:13px&quot;&gt;Browse · search · recommendations&lt;/font&gt;" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=16;fontColor=#252525;fillColor=#FAFAFA;strokeColor=#DCDCDC;strokeWidth=1;spacing=10;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="335" y="405" width="245" height="78" />
+        </mxCell>
+        <mxCell id="playback" value="&lt;b&gt;Playback service&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#737373&quot; style=&quot;font-size:13px&quot;&gt;Rights · manifest · DRM license&lt;/font&gt;" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=16;fontColor=#252525;fillColor=#FAFAFA;strokeColor=#DCDCDC;strokeWidth=1;spacing=10;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="650" y="405" width="245" height="78" />
+        </mxCell>
+        <mxCell id="history" value="&lt;b&gt;History service&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#737373&quot; style=&quot;font-size:13px&quot;&gt;Watchlist · resume&lt;/font&gt;" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=16;fontColor=#252525;fillColor=#FAFAFA;strokeColor=#DCDCDC;strokeWidth=1;spacing=10;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="945" y="405" width="205" height="78" />
+        </mxCell>
+        <mxCell id="route0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=1.4;strokeColor=#737373;fontColor=#737373;fontFamily=Helvetica;fontSize=12;labelBackgroundColor=#FFFFFF;dashed=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="gateway" target="account">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="route1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=1.4;strokeColor=#737373;fontColor=#737373;fontFamily=Helvetica;fontSize=12;labelBackgroundColor=#FFFFFF;dashed=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="gateway" target="catalog">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="route2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=1.4;strokeColor=#737373;fontColor=#737373;fontFamily=Helvetica;fontSize=12;labelBackgroundColor=#FFFFFF;dashed=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="gateway" target="playback">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="route3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=1.4;strokeColor=#737373;fontColor=#737373;fontFamily=Helvetica;fontSize=12;labelBackgroundColor=#FFFFFF;dashed=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="gateway" target="history">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="sql" value="&lt;b&gt;Account database&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#737373&quot; style=&quot;font-size:13px&quot;&gt;SQL · durable account records&lt;/font&gt;" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=16;fontColor=#252525;fillColor=#FAFAFA;strokeColor=#DCDCDC;strokeWidth=1;spacing=10;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="580" width="230" height="78" />
+        </mxCell>
+        <mxCell id="index" value="&lt;b&gt;Catalog stores&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#737373&quot; style=&quot;font-size:13px&quot;&gt;Metadata DB · index · cache&lt;/font&gt;" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=16;fontColor=#252525;fillColor=#FAFAFA;strokeColor=#DCDCDC;strokeWidth=1;spacing=10;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="335" y="580" width="245" height="78" />
+        </mxCell>
+        <mxCell id="origin" value="&lt;b&gt;Video origin&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#737373&quot; style=&quot;font-size:13px&quot;&gt;Object storage · encoded assets&lt;/font&gt;" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=16;fontColor=#252525;fillColor=#FBF2F2;strokeColor=#C78989;strokeWidth=1;spacing=10;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="650" y="580" width="245" height="78" />
+        </mxCell>
+        <mxCell id="kv" value="&lt;b&gt;Profile data store&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#737373&quot; style=&quot;font-size:13px&quot;&gt;Key-value · per-profile state&lt;/font&gt;" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=16;fontColor=#252525;fillColor=#FAFAFA;strokeColor=#DCDCDC;strokeWidth=1;spacing=10;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="945" y="580" width="205" height="78" />
+        </mxCell>
+        <mxCell id="data0" value="Read / write" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=1.4;strokeColor=#737373;fontColor=#737373;fontFamily=Helvetica;fontSize=12;labelBackgroundColor=#FFFFFF;dashed=0;" edge="1" parent="1" source="account" target="sql">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="data1" value="Read / write" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=1.4;strokeColor=#737373;fontColor=#737373;fontFamily=Helvetica;fontSize=12;labelBackgroundColor=#FFFFFF;dashed=0;" edge="1" parent="1" source="catalog" target="index">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="data2" value="Read / write" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=1.4;strokeColor=#737373;fontColor=#737373;fontFamily=Helvetica;fontSize=12;labelBackgroundColor=#FFFFFF;dashed=0;" edge="1" parent="1" source="history" target="kv">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="auth" value="Entitlement" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=1.4;strokeColor=#737373;fontColor=#737373;fontFamily=Helvetica;fontSize=12;labelBackgroundColor=#FFFFFF;dashed=0;exitX=0.5;exitY=1;entryX=0.5;entryY=1;" edge="1" parent="1" source="playback" target="account">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="fill" value="Cache fill" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=1.4;strokeColor=#A84141;fontColor=#A84141;fontFamily=Helvetica;fontSize=12;labelBackgroundColor=#FFFFFF;dashed=0;exitX=1;exitY=0.5;entryX=0.5;entryY=1;" edge="1" parent="1" source="origin" target="cdn">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="920" y="619" />
+              <mxPoint x="920" y="335" />
+              <mxPoint x="985" y="335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="note1" value="CONTROL PATH" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=12;fontColor=#737373;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="711" width="250" height="22" />
+        </mxCell>
+        <mxCell id="note1b" value="Gray arrows: API calls and data access.&lt;br&gt;Responses return along the same path." style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=14;fontColor=#737373;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="741" width="470" height="43" />
+        </mxCell>
+        <mxCell id="note2" value="MEDIA PATH" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=12;fontColor=#A84141;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="650" y="711" width="250" height="22" />
+        </mxCell>
+        <mxCell id="note2b" value="Red arrows: media delivery. The player fetches video&lt;br&gt;directly from the CDN, bypassing application servers." style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=14;fontColor=#737373;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="650" y="741" width="500" height="43" />
+        </mxCell>
+        <mxCell id="rights" value="Title rights" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#737373;fontColor=#737373;fontFamily=Helvetica;fontSize=12;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" edge="1" parent="1" source="playback" target="catalog">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="page4" name="04 — Flows &amp; operating decisions">
+    <mxGraphModel dx="1200" dy="850" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="850" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kicker" value="SYSTEM DESIGN  /  EXPERIMENT 02" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=12;fontColor=#A84141;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="30" width="1000" height="20" />
+        </mxCell>
+        <mxCell id="title" value="Flows &amp; operating decisions" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=32;fontColor=#252525;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="66" width="1100" height="46" />
+        </mxCell>
+        <mxCell id="subtitle" value="How a title reaches the viewer, and how the system stays responsive." style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=16;fontColor=#737373;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="122" width="1100" height="40" />
+        </mxCell>
+        <mxCell id="top-rule" value="" style="shape=line;strokeColor=#DCDCDC;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="175" width="1100" height="1" />
+        </mxCell>
+        <mxCell id="bottom-rule" value="" style="shape=line;strokeColor=#DCDCDC;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="797" width="1100" height="1" />
+        </mxCell>
+        <mxCell id="foot" value="NETFLIX · PROPOSED HLD · EDUCATIONAL DESIGN" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=11;fontColor=#737373;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="813" width="900" height="20" />
+        </mxCell>
+        <mxCell id="number" value="04 / 04" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=11;fontColor=#737373;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1090" y="813" width="70" height="20" />
+        </mxCell>
+        <mxCell id="playh" value="01 / PLAY A TITLE" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=14;fontColor=#A84141;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="210" width="530" height="27" />
+        </mxCell>
+        <mxCell id="playb" value="1. The app signs in and browses through the gateway.&lt;br&gt;2. Playback checks entitlement with Account service&lt;br&gt;    and verifies regional rights from title metadata.&lt;br&gt;3. Return manifest, short-lived CDN authorization,&lt;br&gt;    and a DRM license after successful checks.&lt;br&gt;4. The player requests segments from the CDN,&lt;br&gt;    choosing bitrate based on bandwidth and buffer.&lt;br&gt;5. Every 30 s, report progress via History service;&lt;br&gt;    persist the latest position per profile and title." style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=18;fontColor=#252525;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="250" width="530" height="240" />
+        </mxCell>
+        <mxCell id="publishh" value="02 / PREPARE &amp; PUBLISH CONTENT" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=14;fontColor=#A84141;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="650" y="210" width="500" height="27" />
+        </mxCell>
+        <mxCell id="publishb" value="Upload master → durable queue → encoding workers&lt;br&gt;→ package renditions + DRM → video origin → CDN.&lt;br&gt;&lt;br&gt;Workers retry failed jobs safely. Publish the catalog&lt;br&gt;entry and manifest only after all required assets pass&lt;br&gt;validation. Populate the search index asynchronously.&lt;br&gt;&lt;br&gt;Popular titles are pre-positioned at CDN edges.&lt;br&gt;On a cache miss, an edge fetches from the origin." style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=18;fontColor=#252525;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="650" y="250" width="500" height="240" />
+        </mxCell>
+        <mxCell id="flowrule" value="" style="shape=line;strokeColor=#DCDCDC;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="527" width="1100" height="1" />
+        </mxCell>
+        <mxCell id="reliabilityh" value="03 / RELIABILITY &amp; SCALE" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=14;fontColor=#A84141;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="555" width="530" height="27" />
+        </mxCell>
+        <mxCell id="reliabilityb" value="• Stateless APIs scale behind load balancers.&lt;br&gt;• Replicate services and stores across availability zones.&lt;br&gt;• Shard history by profile ID; cache popular metadata.&lt;br&gt;• Retry transient errors with backoff and idempotency.&lt;br&gt;• Route to a healthy region or CDN edge on failure." style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=18;fontColor=#252525;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="595" width="530" height="175" />
+        </mxCell>
+        <mxCell id="tradeoffsh" value="04 / TRADEOFFS &amp; OBSERVABILITY" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=14;fontColor=#A84141;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="650" y="555" width="500" height="27" />
+        </mxCell>
+        <mxCell id="tradeoffsb" value="• CDN caching reduces origin traffic and startup time.&lt;br&gt;• Pre-encoding uses storage to save playback compute.&lt;br&gt;• History and discovery may lag; entitlement must not.&lt;br&gt;• If recommendations fail, show a cached popular list.&lt;br&gt;• Track startup delay, rebuffering, API errors, CDN hit&lt;br&gt;  rate, and encoding queue age; alert on regressions." style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Helvetica;fontSize=18;fontColor=#252525;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="650" y="595" width="500" height="180" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
